@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen</title>
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;family=Montserrat:ital,wght@0,100..900;1,100..900&amp;family=Noto+Sans:ital,wght@0,100..900;1,100..900&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- HEADER-->
+    <header class="header">
+      <div class="header__container container">
+        <!-- BAR ICON-->
+        <div class="header__bar-icon header__bar-icon--acstive"><span></span><span></span><span></span></div>
+        <!-- LOGO--><a class="header__logo logo" href="index.html" aria-label="Home page"><img class="logo__mobile" src="./imgs/header/mobile-logo.svg" alt="Brand logo" width="103" height="35"><img class="logo__desktop" src="./imgs/header/logo.svg" alt="Brand logo" width="183" height="62"></a>
+        <!-- NAVBAR-->
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item nav__item--active"><a class="nav__link" href="#">Menu</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Delivery</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">FAQ</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Contacts</a></li>
+          </ul>
+        </nav><a class="header__call" href="tel:+99812345678"> <img src="./imgs/icons/phone-black.svg">591 902 883</a>
+        <div class="header__lang lang">
+          <div class="lang__items">
+            <label for="0">
+              <input class="lang__input" type="radio" id="0" value="en" name="lang"><span class="lang__text">en</span>
+            </label>
+          </div>
+          <div class="lang__icon"><img src="./imgs/icons/arrow-down.svg"></div>
+        </div><a class="header__auth btn" href="#"> <img src="./imgs/icons/avatar.svg"><span>Sign in</span></a>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="hero__container container">
+          <div class="hero__inner">
+            <h1 class="hero__title">Your personal cook</h1>
+            <p class="hero__slogan">The balanced diet for every day</p>
+            <button class="hero__btn btn">Make your choice</button>
+            <div class="hero__img"><img src="./imgs/header/hero-img.png" alt=""></div>
+            <div class="hero__shadow"><img src="./imgs/header/shadow.png" alt=""></div>
+            <div class="hero__decor-1"><img src="./imgs/header/hero-d-1.svg" alt=""></div>
+            <div class="hero__decor-2"><img src="./imgs/header/hero-d-2.png" alt=""></div>
+            <div class="hero__decor-3"><img src="./imgs/header/hero-d-3.png" alt=""></div>
+            <div class="hero__decor-4"><img src="./imgs/header/hero-d-4.png" alt=""></div>
+            <div class="hero__decor-5"><img src="./imgs/header/hero-d-5.png" alt=""></div>
+          </div>
+        </div>
+      </section>
+      <section class="food-menu">
+        <div class="food-menu__container container">
+          <div class="food-menu__head">
+            <h1 class="food-menu__title">Our menu</h1>
+            <ul class="food-menu__nav">
+              <li class="food-menu__nav-item">
+                <button class="food-menu__nav-btn btn btn--secondary"><span>POWER</span><span>1800 kcal</span></button>
+              </li>
+              <li class="food-menu__nav-item">
+                <button class="food-menu__nav-btn btn btn--secondary"><span>SLIM</span><span>1800 kcal</span></button>
+              </li>
+              <li class="food-menu__nav-item">
+                <button class="food-menu__nav-btn btn btn--secondary"><span>Balance</span><span>1800 kcal</span></button>
+              </li>
+              <li class="food-menu__nav-item">
+                <button class="food-menu__nav-btn btn btn--secondary"><span>SLIM</span><span>1800 kcal</span></button>
+              </li>
+              <li class="food-menu__nav-item">
+                <button class="food-menu__nav-btn btn btn--secondary"><span>Balance</span><span>1800 kcal</span></button>
+              </li>
+              <li class="food-menu__nav-item">
+                <button class="food-menu__nav-btn btn btn--secondary"><span>SLIM</span><span>1800 kcal</span></button>
+              </li>
+              <li class="food-menu__nav-item">
+                <button class="food-menu__nav-btn btn btn--secondary"><span>Balance</span><span>1800 kcal</span></button>
+              </li>
+            </ul>
+          </div>
+          <div class="food-menu__body">
+            <div class="food-menu__decor-1"><img src="./imgs/food-menu/food-menu-decor-1.png"></div>
+            <div class="food-menu__decor-2"><img src="./imgs/food-menu/food-menu-decor-2.png"></div>
+            <div class="food-menu__week">
+              <ul class="food-menu__days">
+                <li class="food-menu__day">
+                  <button class="btn">Monday</button>
+                </li>
+                <li class="food-menu__day">
+                  <button class="btn">Tuesday</button>
+                </li>
+                <li class="food-menu__day">
+                  <button class="btn">Wednesday</button>
+                </li>
+                <li class="food-menu__day">
+                  <button class="btn">Thursday</button>
+                </li>
+                <li class="food-menu__day">
+                  <button class="btn">Friday</button>
+                </li>
+                <li class="food-menu__day">
+                  <button class="btn">Saturday</button>
+                </li>
+                <li class="food-menu__day">
+                  <button class="btn">Sunday</button>
+                </li>
+              </ul>
+              <div class="food-menu__week-control"><img src="./imgs/icons/arrow-left.svg">
+                <div class="food-menu__week-control-text"><span>WEEK 1</span><span>This week</span></div><img src="./imgs/icons/arrow-right.svg">
+              </div>
+            </div>
+            <div class="swiper" id="slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="swiper-slide__img"><img src="./imgs/food-menu/slide-1.png"></div>
+                  <div class="swiper-slide__title">BREAKFAST 2</div>
+                  <div class="swiper-slide__desc">Chicken fricassee with mushrooms and bulgur</div>
+                  <ul class="swiper-slide__text-list">
+                    <li class="swiper-slide__text-item">Protein - 15 g</li>
+                    <li class="swiper-slide__text-item">Fat - 7 g</li>
+                    <li class="swiper-slide__text-item">Carbohydrates - 24 g</li>
+                    <li class="swiper-slide__text-item">Energy - 285 kсal</li>
+                    <li class="swiper-slide__text-item">Тotal weight: 345 g</li>
+                  </ul>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide__img"><img src="./imgs/food-menu/slide-2.png"></div>
+                  <div class="swiper-slide__title">BREAKFAST 2</div>
+                  <div class="swiper-slide__desc">Chicken fricassee with mushrooms and bulgur</div>
+                  <ul class="swiper-slide__text-list">
+                    <li class="swiper-slide__text-item">Protein - 15 g</li>
+                    <li class="swiper-slide__text-item">Fat - 7 g</li>
+                    <li class="swiper-slide__text-item">Carbohydrates - 24 g</li>
+                    <li class="swiper-slide__text-item">Energy - 285 kсal</li>
+                    <li class="swiper-slide__text-item">Тotal weight: 345 g</li>
+                  </ul>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide__img"><img src="./imgs/food-menu/slide-3.png"></div>
+                  <div class="swiper-slide__title">BREAKFAST 2</div>
+                  <div class="swiper-slide__desc">Chicken fricassee with mushrooms and bulgur</div>
+                  <ul class="swiper-slide__text-list">
+                    <li class="swiper-slide__text-item">Protein - 15 g</li>
+                    <li class="swiper-slide__text-item">Fat - 7 g</li>
+                    <li class="swiper-slide__text-item">Carbohydrates - 24 g</li>
+                    <li class="swiper-slide__text-item">Energy - 285 kсal</li>
+                    <li class="swiper-slide__text-item">Тotal weight: 345 g</li>
+                  </ul>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide__img"><img src="./imgs/food-menu/slide-1.png"></div>
+                  <div class="swiper-slide__title">BREAKFAST 2</div>
+                  <div class="swiper-slide__desc">Chicken fricassee with mushrooms and bulgur</div>
+                  <ul class="swiper-slide__text-list">
+                    <li class="swiper-slide__text-item">Protein - 15 g</li>
+                    <li class="swiper-slide__text-item">Fat - 7 g</li>
+                    <li class="swiper-slide__text-item">Carbohydrates - 24 g</li>
+                    <li class="swiper-slide__text-item">Energy - 285 kсal</li>
+                    <li class="swiper-slide__text-item">Тotal weight: 345 g</li>
+                  </ul>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide__img"><img src="./imgs/food-menu/slide-2.png"></div>
+                  <div class="swiper-slide__title">BREAKFAST 2</div>
+                  <div class="swiper-slide__desc">Chicken fricassee with mushrooms and bulgur</div>
+                  <ul class="swiper-slide__text-list">
+                    <li class="swiper-slide__text-item">Protein - 15 g</li>
+                    <li class="swiper-slide__text-item">Fat - 7 g</li>
+                    <li class="swiper-slide__text-item">Carbohydrates - 24 g</li>
+                    <li class="swiper-slide__text-item">Energy - 285 kсal</li>
+                    <li class="swiper-slide__text-item">Тotal weight: 345 g</li>
+                  </ul>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide__img"><img src="./imgs/food-menu/slide-3.png"></div>
+                  <div class="swiper-slide__title">BREAKFAST 2</div>
+                  <div class="swiper-slide__desc">Chicken fricassee with mushrooms and bulgur</div>
+                  <ul class="swiper-slide__text-list">
+                    <li class="swiper-slide__text-item">Protein - 15 g</li>
+                    <li class="swiper-slide__text-item">Fat - 7 g</li>
+                    <li class="swiper-slide__text-item">Carbohydrates - 24 g</li>
+                    <li class="swiper-slide__text-item">Energy - 285 kсal</li>
+                    <li class="swiper-slide__text-item">Тotal weight: 345 g</li>
+                  </ul>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide__img"><img src="./imgs/food-menu/slide-1.png"></div>
+                  <div class="swiper-slide__title">BREAKFAST 2</div>
+                  <div class="swiper-slide__desc">Chicken fricassee with mushrooms and bulgur</div>
+                  <ul class="swiper-slide__text-list">
+                    <li class="swiper-slide__text-item">Protein - 15 g</li>
+                    <li class="swiper-slide__text-item">Fat - 7 g</li>
+                    <li class="swiper-slide__text-item">Carbohydrates - 24 g</li>
+                    <li class="swiper-slide__text-item">Energy - 285 kсal</li>
+                    <li class="swiper-slide__text-item">Тotal weight: 345 g</li>
+                  </ul>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide__img"><img src="./imgs/food-menu/slide-1.png"></div>
+                  <div class="swiper-slide__title">BREAKFAST 2</div>
+                  <div class="swiper-slide__desc">Chicken fricassee with mushrooms and bulgur</div>
+                  <ul class="swiper-slide__text-list">
+                    <li class="swiper-slide__text-item">Protein - 15 g</li>
+                    <li class="swiper-slide__text-item">Fat - 7 g</li>
+                    <li class="swiper-slide__text-item">Carbohydrates - 24 g</li>
+                    <li class="swiper-slide__text-item">Energy - 285 kсal</li>
+                    <li class="swiper-slide__text-item">Тotal weight: 345 g</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+            <p class="food-menu__desc">
+              A balanced menu helps to maintain health and a slim figure, allows you to be cheerful and active throughout the week. 
+              While preparing our dishes, we use products from the best suppliers and 
+              always choose products that correspond to the concept of healthy nutrition. For 
+              example, lean beef, turkey and chicken, low-calorie sauces, pasta of 
+              hard varieties. Delivery is carried out every 2 days.
+            </p>
+            <div class="food-menu__bottom">
+              <button class="btn food-menu__btn"><img src="./imgs/food-menu/pencil.svg"><span><b>from 56</b><b>Gel/day</b></span><img src="./imgs/icons/arrow-right-white.svg"></button>
+              <div class="food-menu__bottom-label">Total on Tuesday: 1435 kcal</div>
+              <div class="food-menu__bottom-counter">
+                <div class="food-menu__bottom-count"><img src="./imgs/food-menu/meat.svg">
+                  <div>
+                    <h1>71</h1><span>Protein</span>
+                  </div>
+                </div>
+                <div class="food-menu__bottom-count"><img src="./imgs/food-menu/dish.svg">
+                  <div>
+                    <h1>70</h1><span>Fat</span>
+                  </div>
+                </div>
+                <div class="food-menu__bottom-count"><img src="./imgs/food-menu/vege.svg">
+                  <div>
+                    <h1>129</h1><span>Carbohydrates</span>
+                  </div>
+                </div>
+              </div>
+              <button class="btn food-menu__btn">Order now </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FOOTER-->
+      <footer class="footer">
+        <div class="footer__decor-1"><img src="./imgs/footer/decor-1.png"></div>
+        <div class="footer__decor-2"> <img src="./imgs/footer/decor-2.svg"></div>
+        <div class="footer__container container">
+          <div class="footer__info"><a class="footer__logo" href="index.html" aria-label="Home page"><img src="./imgs/footer/footer-logo.svg" alt="Logo" width="183" height="61"></a>
+            <div class="footer__socials"><a class="footer__link" href="#"><img src="./imgs/icons/telegram-white.svg"></a><a class="footer__link" href="#"><img src="./imgs/icons/instagram-white.svg"></a><a class="footer__link" href="#"><img src="./imgs/icons/facebook-white.svg"></a></div>
+          </div>
+          <div class="footer__nav">
+            <ul class="footer__links footer__links--medium">
+              <li><a class="footer__link" href="#">Menu</a></li>
+              <li><a class="footer__link" href="#">Delivery</a></li>
+              <li><a class="footer__link" href="#">FAQ</a></li>
+              <li><a class="footer__link" href="#">Contacts</a></li>
+            </ul>
+            <ul class="footer__links footer__links--light">
+              <li><a class="footer__link" href="#">Privacy Policy</a></li>
+              <li><a class="footer__link" href="#">Terms and Conditions</a></li>
+            </ul>
+          </div>
+          <div class="footer__address">
+            <ul class="footer__links footer__links--bolder">
+              <li><a class="footer__link" href="#"><img src="./imgs/icons/location-white.svg">Tbilisi, Georgia</a></li>
+              <li><a class="footer__link" href="tel:591902883"><img src="./imgs/icons/phone-white.svg">591902883 (9:00 - 18:00)</a></li>
+              <li><a class="footer__link" href="mailto:"><img src="./imgs/icons/mail-white.svg">info@chef-kitchen.com</a></li>
+            </ul>
+            <ul class="footer__address-text">
+              <li>Individual entrepreneur Nikita Mosin </li>
+              <li>Identification Number: 302252210</li>
+            </ul>
+          </div>
+        </div>
+        <p class="container footer__copyright">Chef Kitchen 2023</p>
+      </footer>
+    </main>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/app.min.js"> </script>
+  </body>
+</html>
