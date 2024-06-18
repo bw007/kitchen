@@ -1,0 +1,56 @@
+section.food-menu
+  .food-menu__container.container
+    .food-menu__head
+      h1.food-menu__title Our menu
+      ul.food-menu__nav
+        each item in [{title:"POWER", text:"1800 kcal"}, {title:"SLIM", text:"1800 kcal"}, {title:"Balance", text:"1800 kcal"}, {title:"SLIM", text:"1800 kcal"}, {title:"Balance", text:"1800 kcal"}, {title:"SLIM", text:"1800 kcal"}, {title:"Balance", text:"1800 kcal"}]
+          li.food-menu__nav-item: button.food-menu__nav-btn.btn.btn--secondary
+            span= item.title
+            span= item.text
+    .food-menu__body
+      .food-menu__decor-1
+        img(src="./imgs/food-menu/food-menu-decor-1.png")
+      .food-menu__decor-2
+        img(src="./imgs/food-menu/food-menu-decor-2.png")
+      .food-menu__week
+        ul.food-menu__days
+          each day in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+            li.food-menu__day: button.btn= day
+        .food-menu__week-control
+          img(src="./imgs/icons/arrow-left.svg")
+          .food-menu__week-control-text
+            span WEEK 1
+            span This week
+          img(src="./imgs/icons/arrow-right.svg")
+      include ./_slider.pug
+      p.food-menu__desc A balanced menu helps to maintain health and a 
+        | slim figure, allows you to be cheerful and active throughout the week. 
+        | While preparing our dishes, we use products from the best suppliers and 
+        | always choose products that correspond to the concept of healthy nutrition. For 
+        | example, lean beef, turkey and chicken, low-calorie sauces, pasta of 
+        | hard varieties. Delivery is carried out every 2 days.
+      .food-menu__bottom
+        button.btn.food-menu__btn
+          img(src="./imgs/food-menu/pencil.svg")
+          span
+            b from 56
+            b Gel/day
+          img(src="./imgs/icons/arrow-right-white.svg")
+        .food-menu__bottom-label Total on Tuesday: 1435 kcal
+        .food-menu__bottom-counter
+          .food-menu__bottom-count
+            img(src="./imgs/food-menu/meat.svg")
+            div
+              h1 71
+              span Protein
+          .food-menu__bottom-count
+            img(src="./imgs/food-menu/dish.svg")
+            div
+              h1 70
+              span Fat
+          .food-menu__bottom-count
+            img(src="./imgs/food-menu/vege.svg")
+            div
+              h1 129
+              span Carbohydrates
+        button.btn.food-menu__btn Order now 

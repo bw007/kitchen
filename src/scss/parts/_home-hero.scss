@@ -1,0 +1,102 @@
+.hero {
+  margin-top: 25px;
+  margin-bottom: 92px;
+  &__container {}
+
+  &__inner {
+    width: 100%;
+    @include flex(center, $fd: column, $g: 20px);
+    background-color: $color-green;
+    position: relative;
+    padding: 50px 84px;
+    border-radius: 55px;
+    img {
+      @media only screen and (max-width: 64em) {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  &__title {
+    font-size: 65px;
+    line-height: 65px;
+    color: $color-white;
+    max-width: 400px;
+    @media only screen and (max-width: 64em) {
+      font-size: 45px;
+      max-width: 300px;
+      line-height: 55px;
+    }
+  }
+
+  &__slogan {
+    font-size: 25px;
+    line-height: 60px;
+    @media only screen and (max-width: 75em) {
+      width: 220px;
+      line-height: 32px;
+    }
+    @media only screen and (max-width: 64em) {
+      font-size: 22px;
+      line-height: 24px;
+    }
+  }
+
+  &__btn {
+    width: 205px;
+    padding: 18px 0;
+    border-radius: 50px;
+    text-transform: capitalize;
+
+    &:hover {
+      background-color: $color-white;
+      color: $color-green-dark;
+    }
+  }
+  &__img, &__shadow, &__decor-1, &__decor-2, &__decor-3, &__decor-4, &__decor-5 {
+    position: absolute;
+  }
+  &__img {
+    bottom: -23%;
+    right: 7.5%;
+    z-index: 5;
+    max-width: 50%;
+  }
+  &__shadow {
+    bottom: -35%;
+    right: 6%;
+    z-index: 4;
+    max-width: 50%;
+    @media only screen and (max-width: 64em) {
+      bottom: -32%;
+      right: 8%;
+    }
+  }
+
+  &__decor-1 {
+    top: 7%;
+    right: 5.5%;
+    max-width: 55%;
+  }
+
+  &__decor-2 {
+    left: -22px;
+    bottom: -34px;
+  }
+
+  &__decor-3 {
+    top: -24px;
+    right: calc(50% - (98px / 2));
+  }
+
+  &__decor-4 {
+    bottom: calc(-140px / 2.5);
+    right: calc(51%);
+  }
+
+  &__decor-5 {
+    right: calc(-172px / 5.2);
+    top: calc(100% - (160px / 1.9));
+  }
+}

@@ -1,0 +1,9 @@
+
+// Flex
+@mixin flex($x: flex-start, $y: flex-start, $fd: row, $g: 0) {
+  display: flex;
+  justify-content: $x;
+  align-items: $y;
+  flex-direction: $fd;
+  gap: $g;
+}

@@ -1,0 +1,21 @@
+/* GLOBAL */
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+img {
+  height: auto;
+}
+
+a {
+  color: $color-dark;
+  text-decoration: none;
+  &:active {
+    opacity: 0.6;
+  }
+}
