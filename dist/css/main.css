@@ -1066,9 +1066,13 @@ a {
         bottom: -32%;
         right: 8%; } }
   .hero__decor-1 {
-    top: 7%;
+    bottom: -20%;
     right: 5.5%;
     max-width: 55%; }
+    @media only screen and (max-width: 64em) {
+      .hero__decor-1 {
+        top: 30;
+        right: 5%; } }
   .hero__decor-2 {
     left: -22px;
     bottom: -34px; }

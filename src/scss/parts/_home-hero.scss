@@ -75,9 +75,13 @@
   }
 
   &__decor-1 {
-    top: 7%;
+    bottom: -20%;
     right: 5.5%;
     max-width: 55%;
+    @media only screen and (max-width: 64em) {
+      top: 30;
+      right: 5%;
+    }
   }
 
   &__decor-2 {
